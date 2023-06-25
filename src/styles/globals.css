@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	border-color: inherit !important;
+	display: block !important;
+	width: max-content !important;
+	max-width: 100% !important;
+	overflow: auto !important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+	border-color: inherit !important;
+	border-style: solid !important;
+	padding: 8px !important;
+	border-width: 2px !important;
+}
+
+td[rowspan="4"] {
+	display: table-cell;
+	vertical-align: middle;
+}
