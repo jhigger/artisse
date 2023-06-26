@@ -8,7 +8,7 @@ const Policy = () => {
 	return (
 		<>
 			<Head>
-				<title>Artisse AI | Privacy Policy</title>
+				<title>Privacy Policy</title>
 				<meta
 					name="description"
 					content="Artisse AI - Changing photography forever"

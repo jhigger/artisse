@@ -8,7 +8,7 @@ const Terms = () => {
 	return (
 		<>
 			<Head>
-				<title>Artisse AI | Terms of Service</title>
+				<title>Terms of Service</title>
 				<meta
 					name="description"
 					content="Artisse AI - Changing photography forever"
