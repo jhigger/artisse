@@ -25,7 +25,7 @@ const Terms = () => {
 							if (depth === 1) {
 								return (
 									<ol
-										style={{ listStyleType: "lower-alpha" }}
+										className="list-[lower-alpha]"
 										{...props}
 									/>
 								);

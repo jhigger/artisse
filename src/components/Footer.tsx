@@ -26,8 +26,12 @@ const Footer = ({ localeOption }: { localeOption: LocaleOption }) => {
 						Terms
 					</Link>
 					&middot;
-					<Link className="text-white" href="/policy" target="_blank">
-						Policy
+					<Link
+						className="text-white"
+						href="/privacy"
+						target="_blank"
+					>
+						Privacy
 					</Link>
 				</div>
 			</div>
