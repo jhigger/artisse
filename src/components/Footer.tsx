@@ -22,11 +22,11 @@ const Footer = ({ localeOption }: { localeOption: LocaleOption }) => {
 					{p2}
 				</p>
 				<div className="inline-flex gap-2">
-					<Link className="underline" href="/terms" target="_blank">
+					<Link className="text-white" href="/terms" target="_blank">
 						Terms
 					</Link>
 					&middot;
-					<Link className="underline" href="/policy" target="_blank">
+					<Link className="text-white" href="/policy" target="_blank">
 						Policy
 					</Link>
 				</div>
