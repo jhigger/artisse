@@ -25,6 +25,11 @@ const config = {
 				destination: "https://9yzkecerap7.typeform.com/to/NlCsLOld",
 				permanent: true,
 			},
+			{
+				source: "/deck",
+				destination: "https://docsend.com/view/gq444367tr5qd32k",
+				permanent: true,
+			},
 		];
 	},
 	webpack: (config) => {
