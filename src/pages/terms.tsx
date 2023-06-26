@@ -8,7 +8,8 @@ const Terms = () => {
 		<div className="container mx-auto my-32 w-max">
 			<ReactMarkdown
 				components={{
-					ol: ({ depth, ...props }) => {
+					// eslint-disable-next-line @typescript-eslint/no-unused-vars
+					ol: ({ depth, ordered, ...props }) => {
 						if (depth === 1) {
 							return (
 								<ol
