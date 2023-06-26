@@ -5,10 +5,9 @@ import localFont from "next/font/local";
 
 const font = Noto_Sans_SC({
 	subsets: ["latin"],
-	weight: ["100"],
+	weight: ["100", "400"],
 	variable: "--font-default",
 });
-
 const headingFont = localFont({
 	src: "OPPOSans-L-2.ttf",
 	weight: "100",
