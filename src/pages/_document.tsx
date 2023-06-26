@@ -17,7 +17,8 @@ class MyDocument extends Document {
 	render() {
 		return (
 			<Html>
-				<Head>
+				<Head></Head>
+				<body>
 					<Script
 						async
 						src="https://www.googletagmanager.com/gtag/js?id=G-2TVJSL9NGZ"
@@ -34,8 +35,6 @@ class MyDocument extends Document {
 					})(window,document,'script','dataLayer','GTM-TBLJFC9');
                         `}
 					</Script>
-				</Head>
-				<body>
 					<noscript>
 						<iframe
 							src="https://www.googletagmanager.com/ns.html?id=GTM-TBLJFC9"
