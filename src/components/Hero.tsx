@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Balancer } from "react-wrap-balancer";
 import locale, { type LocaleOption } from "~/locale";
 
@@ -11,35 +12,16 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 			<div className="container flex w-4/5 flex-col items-center justify-center gap-[15vw] px-2 py-36 sm:px-8 lg:flex-row xl:gap-[10vw]">
 				<div className="flex items-center justify-center overflow-hidden lg:w-1/3">
 					<img
-						src={
-							localeOption === "zh-cn"
-								? "images/heroCN.webp"
-								: "images/heroEN.webp"
-						}
+						src={"images/heroEN.webp"}
 						alt="hero image"
 						className="aspect-[9/19.5] h-full object-cover object-center lg:w-[350px]"
 					/>
 				</div>
 				<div className="flex h-full flex-col gap-8 lg:w-2/5">
 					<div className="flex flex-col items-center gap-4 text-center">
-						{localeOption === "zh-cn" ? (
-							<div className="flex items-center justify-center gap-4 lg:gap-6">
-								<img
-									src="logo.webp"
-									alt="logo"
-									className="w-1/5 rounded-xl bg-white lg:w-1/4"
-								/>
-								<img
-									src="logo name.png"
-									alt="mumuxiang ai"
-									className="w-1/3 lg:w-3/4"
-								/>
-							</div>
-						) : (
-							<h1 className="whitespace-nowrap font-heading text-6xl md:text-7xl lg:text-8xl">
-								{title}
-							</h1>
-						)}
+						<h1 className="whitespace-nowrap font-heading text-6xl md:text-7xl lg:text-8xl">
+							{title}
+						</h1>
 						<p className="text-lg md:text-2xl lg:whitespace-nowrap lg:text-3xl">
 							<Balancer>{desc}</Balancer>
 						</p>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { type LocaleOption } from "~/locale";
 import Content from "./Content";
 
@@ -10,19 +11,19 @@ export const Section1 = (props: { localeOption: LocaleOption }) => {
 	const icons: IconType[] = [
 		{
 			src: "icons/icon1.webp",
-			desc: { "en-us": "Text-generated images", "zh-cn": "文生图" },
+			desc: { "en-us": "Text-generated images" },
 		},
 		{
 			src: "icons/icon2.webp",
-			desc: { "en-us": "Imitate other photos", "zh-cn": "图生图" },
+			desc: { "en-us": "Imitate other photos" },
 		},
 		{
 			src: "icons/icon3.webp",
-			desc: { "en-us": "Fine tune editing", "zh-cn": "自由编辑" },
+			desc: { "en-us": "Fine tune editing" },
 		},
 		{
 			src: "icons/icon4.webp",
-			desc: { "en-us": "Fully customizable", "zh-cn": "自选风格" },
+			desc: { "en-us": "Fully customizable" },
 		},
 	];
 
@@ -116,11 +117,11 @@ export const Section5 = (props: { localeOption: LocaleOption }) => {
 	const icons: IconType[] = [
 		{
 			src: "icons/icon5.webp",
-			desc: { "en-us": "Patented models", "zh-cn": "专利模型" },
+			desc: { "en-us": "Patented models" },
 		},
 		{
 			src: "icons/icon6.webp",
-			desc: { "en-us": "Exclusive fine-tuning", "zh-cn": "独家微调" },
+			desc: { "en-us": "Exclusive fine-tuning" },
 		},
 	];
 
