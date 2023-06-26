@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
-import md from "~/markdowns/tos.md";
+import md from "~/assets/markdown/tos.md";
 
 const Terms = () => {
 	return (

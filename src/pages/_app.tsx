@@ -9,7 +9,7 @@ const font = Noto_Sans_SC({
 	variable: "--font-default",
 });
 const headingFont = localFont({
-	src: "OPPOSans-L-2.ttf",
+	src: "../assets/OPPOSans-L-2.ttf",
 	weight: "100",
 	variable: "--font-heading",
 });
