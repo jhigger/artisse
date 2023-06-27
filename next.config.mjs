@@ -25,12 +25,19 @@ const config = {
 				destination: "https://9yzkecerap7.typeform.com/to/NlCsLOld",
 				permanent: true,
 			},
-			{
-				source: "/deck",
-				destination: "https://docsend.com/view/gq444367tr5qd32k",
-				permanent: true,
-			},
 		];
+	},
+	async rewrites() {
+		return {
+			beforeFiles: [
+				{
+					source: "/deck",
+					destination: "/ArtisseAI_Introduction.pdf",
+				},
+			],
+			afterFiles: [],
+			fallback: [],
+		};
 	},
 	webpack: (config) => {
 		config.module.rules.push({
